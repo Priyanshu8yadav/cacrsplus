@@ -5,14 +5,13 @@ folder before running the dashboard.
 
 ## 1 · DM-Count density model (primary counting engine) — required
 
-File: **`model_qnrf.pth`**  (~86 MB, VGG-19, trained on UCF-QNRF)
+File: **`model_qnrf.pth`** (or **`qnrf.pth`**)  (~82 MB, VGG-19, trained on UCF-QNRF)
 
-Source: the official DM-Count repository —
-[cvlab-stonybrook/DM-Count](https://github.com/cvlab-stonybrook/DM-Count)
-(`pretrained_models/model_qnrf.pth`). The `model_nwpu.pth` checkpoint also works.
+Sources:
+- **Project Google Drive (`models/`):** [Google Drive models/qnrf.pth](https://drive.google.com/file/d/1hft7CpK6s3pgSAMn4cI-2HhAB2ywTgVa/view?usp=sharing)
+- **Official DM-Count repository:** [cvlab-stonybrook/DM-Count](https://github.com/cvlab-stonybrook/DM-Count) (`pretrained_models/model_qnrf.pth`)
 
 Place it here:
-
 ```
 models/model_qnrf.pth
 ```
