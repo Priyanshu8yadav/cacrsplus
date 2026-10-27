@@ -36,6 +36,9 @@ outputs/tables/all_datasets.csv
 outputs/tables/ucf_qnrf.csv
 outputs/tables/shanghaitech_both.csv
 
+# Deposit archives (uploaded to Zenodo directly, not committed to git)
+deposit/*.zip
+
 # Video files — ignored globally; sample videos in public/ are allowed
 *.mp4
 *.avi
