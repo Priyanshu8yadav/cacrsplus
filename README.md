@@ -1,6 +1,6 @@
 # 🛡️ CA-CRS+: Real-Time Causal Crowd-Risk Intelligence
 
-[![Zenodo](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.cacrsplus-blue.svg)](https://zenodo.org)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23691416.svg)](https://doi.org/10.5281/zenodo.23691416)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Python: 3.10+](https://img.shields.io/badge/Python-3.10%2B-brightgreen.svg)](requirements.txt)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0%2B-red.svg)](https://pytorch.org)
@@ -271,8 +271,8 @@ If you use this codebase, framework, or benchmark artifacts in your research, pl
   author={Yadav, Priyanshu Kumar and Mishra, Abhinav Kumar},
   year={2026},
   howpublished={Preprint and Reproducible Research Archive, Zenodo},
-  doi={10.5281/zenodo.cacrsplus},
-  url={https://github.com/Priyanshu8yadav/cacrsplus}
+  doi={10.5281/zenodo.23691416},
+  url={https://doi.org/10.5281/zenodo.23691416}
 }
 ```
 
