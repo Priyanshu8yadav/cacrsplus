@@ -1,6 +1,7 @@
 # 🛡️ CA-CRS+: Real-Time Causal Crowd-Risk Intelligence
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23691416.svg)](https://doi.org/10.5281/zenodo.23691416)
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.23691416-blue.svg)](https://doi.org/10.5281/zenodo.23691416)
+[![Zenodo](https://zenodo.org/badge/DOI/10.5281/zenodo.23691416.svg)](https://doi.org/10.5281/zenodo.23691416)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Python: 3.10+](https://img.shields.io/badge/Python-3.10%2B-brightgreen.svg)](requirements.txt)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0%2B-red.svg)](https://pytorch.org)
@@ -9,7 +10,10 @@
 > **A Zone-Aware, Resource-Informed Crowd Risk Scoring Framework with Cause-Specific Gate Intervention Recommendation for Stampede Prevention**
 
 **Authors:** [Priyanshu Kumar Yadav](mailto:priyanshu322006@gmail.com) & [Abhinav Kumar Mishra](mailto:mishrakabhinav34@gmail.com)  
-*Department of Computer Science and Engineering, Rajkiya Engineering College, Mainpuri, Uttar Pradesh, India*
+*Department of Computer Science and Engineering, Rajkiya Engineering College, Mainpuri, Uttar Pradesh, India*  
+
+**Permanent DOI:** [https://doi.org/10.5281/zenodo.23691416](https://doi.org/10.5281/zenodo.23691416) (`10.5281/zenodo.23691416`)  
+**Zenodo Record:** [https://zenodo.org/records/23691416](https://zenodo.org/records/23691416)
 
 ---
 
@@ -22,7 +26,10 @@ This research was initially developed and submitted to the *IEEE Region 10 Confe
 - All experiments were evaluated on public ground-truth benchmarks (**ShanghaiTech Parts A & B** and **PETS2009 S2.L1** multi-camera views).
 - Formal 5-parameter sensitivity analysis and measured edge throughput were incorporated.
 
-**Status:** The manuscript was voluntarily withdrawn from TENCON 2026 and is published here as an **open-access research preprint and reproducible artifact archive on Zenodo**.
+**Status:** The manuscript was voluntarily withdrawn from TENCON 2026 and is published here as an **open-access research preprint and reproducible artifact archive on Zenodo**:
+- **Permanent DOI:** [https://doi.org/10.5281/zenodo.23691416](https://doi.org/10.5281/zenodo.23691416)
+- **Zenodo Archive:** [https://zenodo.org/records/23691416](https://zenodo.org/records/23691416)
+- **Research Paper PDF:** [`docs/CA-CRS-Plus-Research-Paper.pdf`](docs/CA-CRS-Plus-Research-Paper.pdf)
 
 ---
 
@@ -264,6 +271,9 @@ cacrsplus/
 ## 📖 Citation
 
 If you use this codebase, framework, or benchmark artifacts in your research, please cite:
+
+- **Permanent DOI:** [https://doi.org/10.5281/zenodo.23691416](https://doi.org/10.5281/zenodo.23691416)
+- **Zenodo Record:** [https://zenodo.org/records/23691416](https://zenodo.org/records/23691416)
 
 ```bibtex
 @misc{yadav2026cacrsplus,
