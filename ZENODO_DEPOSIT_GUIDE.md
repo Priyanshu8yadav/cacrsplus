@@ -143,8 +143,8 @@ Add these tags:
 
 ## 5. Adding the Zenodo Badge to GitHub
 
-Once published, Zenodo gives you a Markdown badge code. Update the top of your `README.md` with:
+The Markdown badge has been linked in your repository `README.md` and `CITATION.cff`:
 ```markdown
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.YOUR_DOI_HERE.svg)](https://doi.org/10.5281/zenodo.YOUR_DOI_HERE)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23691416.svg)](https://doi.org/10.5281/zenodo.23691416)
 ```
-Replace `YOUR_DOI_HERE` with your actual 7-digit Zenodo record number.
+Permanent DOI URL: [https://doi.org/10.5281/zenodo.23691416](https://doi.org/10.5281/zenodo.23691416)
