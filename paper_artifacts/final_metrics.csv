@@ -1,6 +1,0 @@
-scenario,role,unique_frames,danger_frames_pct,mean_ca_crs,mean_projected_crs,mean_crr_pct,notes,summary_file
-A (Entry Corridor),main_table,44,75.0,0.7927,0.4552,40.4,density-dominant single-zone case,paper_runs/scen_a/summary_stats.txt
-B (Main Hall),main_table,64,1.6,0.5035,0.4068,18.9,lower-danger single-zone case,paper_runs/scen_b/summary_stats.txt
-C (Exit Plaza),main_table,54,9.3,0.5291,0.4107,21.2,mixed-flow single-zone case,paper_runs/scen_c/summary_stats.txt
-D (Multi-Cam),main_table,59,10.2,0.5557,0.4188,22.7,three-stream multi-zone orchestration case,results/multicam/summary_stats.txt
-Speed Validation,supplementary,86,0.0,0.3215,0.2764,12.7,speed-dominant panic-response validation,results/scen_d_probe3/summary_stats.txt

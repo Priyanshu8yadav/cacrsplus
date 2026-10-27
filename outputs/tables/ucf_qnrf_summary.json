@@ -1,0 +1,21 @@
+{
+  "dataset": "ucf_qnrf",
+  "splits": {
+    "test": {
+      "n_images": 334,
+      "total_persons": 240127,
+      "mean_count": 718.94,
+      "std_count": 747.76,
+      "min_count": 65,
+      "max_count": 4535
+    },
+    "train": {
+      "n_images": 1201,
+      "total_persons": 1011515,
+      "mean_count": 842.23,
+      "std_count": 1271.83,
+      "min_count": 49,
+      "max_count": 12865
+    }
+  }
+}

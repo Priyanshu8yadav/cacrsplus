@@ -1,0 +1,21 @@
+{
+  "dataset": "shanghaitech_both",
+  "splits": {
+    "test": {
+      "n_images": 316,
+      "total_persons": 94858,
+      "mean_count": 300.18,
+      "std_count": 315.01,
+      "min_count": 9,
+      "max_count": 2256
+    },
+    "train": {
+      "n_images": 400,
+      "total_persons": 173192,
+      "mean_count": 432.98,
+      "std_count": 477.38,
+      "min_count": 15,
+      "max_count": 3138
+    }
+  }
+}

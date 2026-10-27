@@ -1,0 +1,48 @@
+{
+  "alpha0": 8.2442,
+  "gamma": 1.1333,
+  "alpha0_stderr": 0.2326,
+  "gamma_stderr": 0.0264,
+  "predictor": "rho_norm (gt_count / max_gt_count)",
+  "max_gt_count": 1535,
+  "n_samples_total": 1601,
+  "n_samples_filtered": 1269,
+  "detection_rate_mean": 0.695,
+  "metrics": {
+    "r2": 0.6152,
+    "mae": 0.5607,
+    "rmse": 0.9024,
+    "beta_r2": -0.0401,
+    "beta_correlation": -0.1673,
+    "rho_correlation": 0.7856
+  },
+  "formula": "kappa(rho) = 1 + 8.2442 * rho^1.1333",
+  "per_dataset": {
+    "shanghaitech_A": {
+      "n": 300,
+      "det_rate": 0.838,
+      "kappa_obs_mean": 1.462,
+      "detected_mean": 356.1,
+      "gt_mean": 541.4
+    },
+    "shanghaitech_B": {
+      "n": 100,
+      "det_rate": 1.019,
+      "kappa_obs_mean": 1.024,
+      "detected_mean": 99.0,
+      "gt_mean": 107.8
+    },
+    "ucf_qnrf": {
+      "n": 1201,
+      "det_rate": 0.540,
+      "kappa_obs_mean": 3.815,
+      "detected_mean": 221.4,
+      "gt_mean": 842.2
+    }
+  },
+  "note": "Empirically calibrated using SAHI-wrapped YOLOv8n head detector (HuggingFace AmineSam/irail-crowd-counting-yolov8n). beta has near-zero correlation with kappa (R2=-0.04, confirmed). GT density (rho) is the dominant predictor (R2=0.62, corr=0.79). UCF-QNRF used standard YOLOv8 inference at imgsz=1280; ShanghaiTech used SAHI slicing (512x512, overlap=0.25).",
+  "source": "SAHI + YOLOv8n head detection on ShanghaiTech A+B (SAHI) + UCF-QNRF (standard, imgsz=1280)",
+  "calibration_date": "2026-06-08",
+  "previous_yolo_person_r2": 0.6716,
+  "comparison_note": "Previous YOLO person (COCO) had R2=0.6716 with alpha0=10.0, gamma=0.674. SAHI head gives R2=0.6152 with alpha0=8.244, gamma=1.133. The SAHI head model trades slightly lower R2 for much better detection rates on ShanghaiTech (83.8% vs ~60%) and physically correct head-based occlusion measurement."
+}

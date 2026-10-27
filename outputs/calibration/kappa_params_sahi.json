@@ -1,0 +1,25 @@
+{
+  "beta_fit": {
+    "alpha0": 1.3786394937607276,
+    "gamma": 0.20000000000001714,
+    "alpha0_stderr": 0.2035810228313354,
+    "gamma_stderr": 0.07177546882959085,
+    "r2": -0.040060728129168055,
+    "correlation": -0.16733282057342852
+  },
+  "density_fit": {
+    "alpha0": 8.244217029338218,
+    "gamma": 1.1332843273379483,
+    "alpha0_stderr": 0.23255333587570812,
+    "gamma_stderr": 0.026402353854320004,
+    "r2": 0.6151772555422684,
+    "correlation": 0.7856221466241943,
+    "max_gt_count": 3138
+  },
+  "recommended": "\u03c1-based",
+  "n_images_total": 1601,
+  "n_images_filtered": 1269,
+  "detection_rate_mean": 0.695,
+  "model": "YOLOv8m SCUT-HEAD + SAHI",
+  "source": "SAHI sliced inference on ShanghaiTech + UCF-QNRF"
+}

@@ -1,7 +1,66 @@
-*.mp4
-*.pt
+# ─────────────────────────────────────────────────────────────
+#  CA-CRS⁺  ·  .gitignore
+#  Keeps the repo lean: code + configs + docs are tracked;
+#  weights, datasets, videos, caches and scratch are not.
+# ─────────────────────────────────────────────────────────────
+
+# Python
 __pycache__/
-*.pyc
-.env
-.DS_Store
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+*.egg
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Model weights — download separately (see models/README.md)
+# NOTE: matches .pt, .pth, .onnx, .engine AND the split _parts_tmp/ chunks.
+models/*
+!models/README.md
+!models/.gitkeep
+
+# Datasets — obtained separately (ShanghaiTech / UCF-QNRF / PETS2009)
+datasets/*
+!datasets/.gitkeep
+
+# Large computed dumps (keep curated summary artifacts, parameter JSONs, and plots)
+outputs/*_detections.csv
+outputs/tables/all_datasets.csv
+outputs/tables/ucf_qnrf.csv
+outputs/tables/shanghaitech_both.csv
+
+# Video files — ignored globally; sample videos in public/ are allowed
+*.mp4
+*.avi
+*.mov
+*.mkv
+!public/*.mp4
+!public/*.avi
+!public/*.mov
+!public/*.mkv
+
+# Round-1 scratch / quarantined broken artifacts — never push these
+_QUARANTINE_broken_round1/
+dashboard/original_run_dashboard.py
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Streamlit cache
+.streamlit/
+
+# Logs
 *.log
+
+# OS / IDE
+.DS_Store
+.idea/
+.vscode/
+*.swp

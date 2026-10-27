@@ -1,0 +1,37 @@
+{
+  "title": "CA-CRS+: A Zone-Aware, Resource-Informed Crowd Risk Scoring Framework with Cause-Specific Gate Intervention Recommendation for Stampede Prevention",
+  "description": "<p><b>CA-CRS+</b> is an edge-deployable, RGB-only crowd safety framework designed to detect impending stampedes and crush conditions, attribute the underlying causal driver (Density, Speed, or Conflict), actuate named gate interventions with ripple-effect prevention, and size medical/security personnel demand dynamically.</p><p><b>Key Contributions & Findings:</b></p><ul><li><b>Benchmark-Validated Counting:</b> Replaces whole-body detection with density-map regression (DM-Count VGG-19; validated at MAE 48.7 on ShanghaiTech Part A, MAE 14.4 on Part B, and MAE 0.55 against multi-object-tracking ground truth on PETS2009 S2.L1).</li><li><b>Circular-Variance Conflict Index:</b> Normalized directional conflict metric via magnitude-weighted circular variance of optical flow that does not degenerate under balanced counter-flow.</li><li><b>Non-Linear Crush Scoring:</b> Solves the zero-velocity gridlock paradox where dense stationary crowds are scored as safe by linear models. On dense imagery, CA-CRS+ flags 55% of scenes as DANGER where a matched linear baseline flags 0%.</li><li><b>Cause-to-Gate Mapping with Ripple-Effect Downgrade:</b> Emits named gate commands (Density &rarr; OPEN, Speed &rarr; CLOSE, Conflict &rarr; REDIRECT, MIXED &rarr; HOLD) with a safety check preventing crowd redirection from overwhelming downstream zones.</li><li><b>Dynamic Resource-Aware Alerting:</b> Sizes marshal demand logarithmically with crowd population (D_mar = ceil(alpha * log10(1 + N))).</li><li><b>Multi-Camera Fusion:</b> Fuses multiple real CCTV camera streams into an urgency-weighted (2:1) Global Risk Score (GRS).</li><li><b>Edge Performance:</b> Runs at 4.0 frames/s on a single commodity NVIDIA Tesla T4 GPU, supporting real-time 1–2 Hz risk-update cadences.</li></ul><p><i>Note: This research work was originally prepared for IEEE TENCON 2026, withdrawn by the authors after peer-review revisions, and is released here as an open-access research preprint and reproducible artifact archive with source code, benchmark data, and verification scripts.</i></p>",
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "creators": [
+    {
+      "name": "Yadav, Priyanshu Kumar",
+      "affiliation": "Department of Computer Science and Engineering, Rajkiya Engineering College, Mainpuri, Uttar Pradesh, India"
+    },
+    {
+      "name": "Mishra, Abhinav Kumar",
+      "affiliation": "Department of Computer Science and Engineering, Rajkiya Engineering College, Mainpuri, Uttar Pradesh, India"
+    }
+  ],
+  "keywords": [
+    "crowd safety",
+    "stampede prevention",
+    "zone-aware risk scoring",
+    "crowd counting",
+    "optical flow",
+    "causal attribution",
+    "gate intervention",
+    "multi-camera fusion",
+    "edge computing",
+    "public safety"
+  ],
+  "license": "MIT",
+  "access_right": "open",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/Priyanshu8yadav/cacrsplus",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
+}

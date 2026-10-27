@@ -1,0 +1,13 @@
+{
+  "dataset": "pets2009",
+  "splits": {
+    "test": {
+      "n_images": 8,
+      "total_persons": 56,
+      "mean_count": 7.0,
+      "std_count": 9.64,
+      "min_count": 1,
+      "max_count": 30
+    }
+  }
+}

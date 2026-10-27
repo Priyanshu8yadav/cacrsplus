@@ -1,0 +1,6 @@
+parameter,S1,S1_conf,ST,ST_conf,rank_ST,recommendation
+gamma_exp,0.667727,0.063714,0.727192,0.060605,1,TUNE (sensitive)
+lambda,0.219743,0.045832,0.279825,0.029399,2,TUNE (sensitive)
+w2,0.029146,0.014562,0.030665,0.002968,3,FIX (insensitive)
+w1,0.020997,0.013093,0.021532,0.002049,4,FIX (insensitive)
+w3,0.000914,0.003565,0.001561,0.00024,5,FIX (insensitive)

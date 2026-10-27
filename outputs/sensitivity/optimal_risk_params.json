@@ -1,0 +1,24 @@
+{
+  "gamma_exp": 0.01,
+  "lambda": 8.491525423728813,
+  "accuracy": 0.75,
+  "separation": 0.3105,
+  "mean_safe_crs": 0.433,
+  "mean_danger_crs": 0.7435,
+  "w1": 0.4,
+  "w2": 0.3,
+  "w3": 0.3,
+  "kappa": {
+    "mode": "density",
+    "formula": "kappa(rho) = 1 + alpha0 * rho^gamma",
+    "alpha0": 8.2442,
+    "gamma": 1.1333,
+    "r2": 0.6152,
+    "detection_rate": 0.695,
+    "calibrated_with": "SAHI YOLOv8n head detector",
+    "datasets": ["shanghaitech_A", "shanghaitech_B", "ucf_qnrf"],
+    "n_images": 1601
+  },
+  "note": "w1/w2/w3 fixed per Sobol analysis (insensitive). gamma_exp and lambda tuned on PETS2009 trajectories. kappa now calibrated with SAHI head-detection model (empirical, density-based).",
+  "source": "PETS2009 trajectory validation + SAHI head detection calibration 2026-06-08"
+}
